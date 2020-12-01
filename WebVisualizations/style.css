@@ -1,0 +1,19 @@
+body{
+    background-color: #ededed;
+}
+.navbar-brand{
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 40px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#jumbotron-left{
+    margin-right:.6cm;
+    margin-left: .7cm;
+}
+#jumbotron-right{
+    margin-right: .6cm;
+    margin-left: .6cm;
+}
