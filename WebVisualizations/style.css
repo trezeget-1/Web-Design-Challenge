@@ -9,6 +9,9 @@ body{
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 #jumbotron-left{
     margin-right:.6cm;
     margin-left: .7cm;
@@ -16,4 +19,13 @@ h1{
 #jumbotron-right{
     margin-right: .6cm;
     margin-left: .6cm;
+}
+#jumbotron-right-maxtemp-page{
+    margin-right: .6cm;
+    margin-left: .6cm;
+    padding-bottom: 0px;
+}
+#jumbotron-visualizations-page{
+    margin-right: 1cm;
+    margin-left: 1cm;
 }
