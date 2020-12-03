@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand bg-info text-light" href="index.html" style=margin-left:70px>
             <h1>Lattitude</h1></a>            
@@ -23,10 +24,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-body" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">                           
-                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                            <a class="dropdown-item"href="max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="#">Humidity</a>
+                            <a class="dropdown-item" href="#">Cloudiness</a>
+                            <a class="dropdown-item" href="#">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item active text-body">
@@ -43,29 +44,23 @@
 
         <div class="row">
             <div class="jumbotron col-lg-7 col-md-11 col-sm-11 bg-light" id="jumbotron-left">
-                <h1 class="display-4 text-info" style="font-size: .9cm;">Summary: Latitude vs. X</h1>
+                <h1 class="display-4 text-info" style="font-size: .9cm;">Humidity</h1>
                 <hr class="my-4">
-                <p> <img src="Resources\assets\images/Fig1.png" id="img-jumbotron-left" class="float-left col-md-7 col-sm-12"  alt="Fig1.png">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p> <img src="Resources\assets\images/Fig1.png" id="img-jumbotron-left" class="float-left col-md-12"  alt="Fig1.png">It uses utility classes for typography and spacing to space content out within the larger container.</p>
             </div>
-            <div class="jumbotron col-lg-4 col-md-11 col-sm-11 bg-light" id="jumbotron-right">
+            <div class="jumbotron col-lg-4 col-md-11 col-sm-11 bg-light" id="jumbotron-right-maxtemp-page">
                 <h1 class="display-4 text-info" style="font-size: .9cm;">Visualizations</h1>
                 <hr class="my-4">
+
                 <div class="row">
-                    <div class="col-md-6 col-sm-3">
-                        <a href="max_temp.html"><img src="Resources\assets\images/Fig1.png" class="col-12" alt="Fig1.png"></a>
-                    </div>
-                    <div class="col-md-6 col-sm-3">
-                        <a href="humidity.html"><img src="Resources\assets\images/Fig2.png" class="col-12" alt="Fig2.png"></a>
-                    </div>
-                    <div class="col-md-6 col-sm-3">
-                        <a href="cloudiness.html"><img src="Resources\assets\images/Fig3.png" class="col-12" alt="Fig3.png"></a>
-                    </div>
-                    <div class="col-md-6 col-sm-3">
-                        <a href="wind_speed.html"><img src="Resources\assets\images/Fig4.png" class="col-12" alt="Fig4.png"></a>
-                    </div>
+                    <img src="Resources\assets\images/Fig1.png" class="col-md-6 col-sm-3" alt="Fig1.png">
+                    <img src="Resources\assets\images/Fig2.png" class="col-md-6 col-sm-3" id="image-selected" alt="Fig1.png">
+                    <img src="Resources\assets\images/Fig3.png" class="col-md-6 col-sm-3" alt="Fig1.png">
+                    <img src="Resources\assets\images/Fig4.png" class="col-md-6 col-sm-3 mx-auto d-block" alt="Fig1.png">
                 </div>
             </div>
         </div>
+
 </body>
 </html>
 
